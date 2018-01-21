@@ -1,0 +1,109 @@
+
+
+table {
+  border-color: black;
+  border-collapse: collapse;
+}
+
+td{
+  width:60px;
+  height:60px;
+  /*border-color: black;*/
+  border: black solid 2px;
+
+}
+
+h1{
+  color:blue;
+}
+/* This is what we use to change the color of the table data when there is  a "hit". */
+.hit{
+  /*background-color: red;*/
+  /*background-image: url("images/adele.jpg");*/
+  background-size: 80px 60px;
+}
+
+.miss{
+  background-color: red;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-image: url("https://i.axs.com/2017/05/31581-image_5908bde383b97.jpg");
+
+}
+
+div.transbox {
+  margin-left: 50px;
+  margin-right: 100px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox2 {
+  margin: 1px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+/*moves counterbox from bottomr*/
+.rightcenter{
+  position:absolute;
+  top: 250px;
+  right:300px;
+ }
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+#gameBoard{
+  margin-top: 10px;
+   margin-bottom: 100px;
+   margin-right: 150px;
+   margin-left: 80px;
+}
+
+#torpedoCounter {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#hitCounter{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* // */
+
+body {margin:0;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
