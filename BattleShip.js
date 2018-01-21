@@ -85,48 +85,48 @@ var hitCount=0;
 //Step 6: If the board[row][col] is at the same position of a ship and does not already have the class name of "hit", then it will be given the className of "hit". The torpedo count will increase by one.
     if (board[row][col] === SHIP && e.target.className !== "hit" && hitCount == 0){
         e.target.className="hit";
-        e.target.style="background-image: url('images/adele.jpg')";
+        e.target.style="background-image: url('../images/adele.jpg')";
           torpedoCount++
           hitCount++
   //Else, if the board[row][col] is not in the same position of a ship and it doesn't already have a class name of "miss", then it will be given the className of "miss". The torpedo count will increase by one.
 } else if (board[row][col] === SHIP && e.target.className !== "hit" && hitCount == 1){
     e.target.className="hit";
-    e.target.style="background-image: url('images/friendlyfires.jpg')";
+    e.target.style="background-image: url('../images/friendlyfires.jpg')";
       torpedoCount++
       hitCount++
 } else if (board[row][col] === SHIP && e.target.className !== "hit" && hitCount == 2){
     e.target.className="hit";
-    e.target.style="background-image: url('images/kendricklamar.jpg')";
+    e.target.style="background-image: url('../images/kendricklamar.jpg')";
       torpedoCount++
       hitCount++
 } else if (board[row][col] === SHIP && e.target.className !== "hit" && hitCount == 3){
     e.target.className="hit";
-    e.target.style="background-image: url('images/robyn.jpg')";
+    e.target.style="background-image: url('../images/robyn.jpg')";
       torpedoCount++
       hitCount++
 } else if (board[row][col] === SHIP && e.target.className !== "hit" && hitCount == 4){
     e.target.className="hit";
-    e.target.style="background-image: url('images/yelle.jpg')";
+    e.target.style="background-image: url('../images/yelle.jpg')";
       torpedoCount++
       hitCount++
 } else if (board[row][col] === SHIP && e.target.className !== "hit" && hitCount == 5){
     e.target.className="hit";
-    e.target.style="background-image: url('images/thekillers.png')";
+    e.target.style="background-image: url('../images/thekillers.png')";
       torpedoCount++
       hitCount++
 } else if (board[row][col] === SHIP && e.target.className !== "hit" && hitCount == 6){
     e.target.className="hit";
-    e.target.style="background-image: url('images/florenceandthemachine.jpg')";
+    e.target.style="background-image: url('../images/florenceandthemachine.jpg')";
       torpedoCount++
       hitCount++
 } else if (board[row][col] === SHIP && e.target.className !== "hit" && hitCount == 7){
     e.target.className="hit";
-    e.target.style="background-image: url('images/santigold.jpg')";
+    e.target.style="background-image: url('../images/santigold.jpg')";
       torpedoCount++
       hitCount++
 } else if (board[row][col] === SHIP && e.target.className !== "hit" && hitCount == 8){
     e.target.className="hit";
-    e.target.style="background-image: url('images/lorde.jpg')";
+    e.target.style="background-image: url('../images/lorde.jpg')";
       torpedoCount++
       hitCount++
 }else if(torpedoCount>=50){
